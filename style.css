@@ -13,6 +13,9 @@ a {
     color: hotpink;
 }
 
+p {
+}
+
 header {
     height: 50px;
     background: #073642;
@@ -62,8 +65,7 @@ article {
 }
 
 footer {
-    position:fixed;
-    bottom: 100px;
+    bottom: 0px;
 }
 
 ul {
