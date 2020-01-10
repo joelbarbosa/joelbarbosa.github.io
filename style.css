@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eed;
+    font-family:  'IBM Plex Mono', monospace;
+    color: #555;
+}
+
+a {
+    color: hotpink;
+}
+
+header {
+    height: 50px;
+    background: #073642;
+    color: #93a1a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.subtitle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.content {
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+@media ( min-width: 800px ) {
+    .content {
+        margin-left: 20%;
+        font-size: 14px;
+    }
+}
+
+.comment {
+    color: #228b22;
+}
+
+.string {
+    color: #cd5555;
+}
+
+.var {
+    color: #8b008b;
+    font-weight: 700;
+}
+
+footer {
+    position:fixed;
+    bottom: 100px;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li:before {
+    content: ">>>";
+    padding-right: 5px;
+}
