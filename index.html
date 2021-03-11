@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Joel Barbosa"
+      content="Joel Barbosa | I can provide an end-to-end solution as a Software Engineer."
     />
     <meta name="author" content="Joel Barbosa">
     <title>Joel Barbosa</title>
@@ -22,23 +22,25 @@
           <kbd class="string"># "...sometimes code, sometimes bugs"<kbd>
       </section>
       <article class="content">
-            <p><code><span class="var">let</span> about_me = <span class="comment">`I have been a Software Engineer for about 8 years,<br> I am Brazilian living in the Netherlands and working <br> as a Software Engineer at ING Bank. At the moment I am part of the Investment <br> project providing solutions with React Native.`</span></code></p>
+            <p><code><span class="var">let</span> about_me = <span class="comment">`I have been a Software Engineer for about <span id="xp">?</span> years,<br> I can provide an end-to-end solution <br> I like to read about Computer Science and things like the binary tree.`</span></code></p>
       </article>
 
       <footer class="content">
         <section class="subtitle">
-            <p><code><span class="var">let</span> download_my_cv = <a href="./joelbarbosa.pdf">`joelbarbosa.pdf`</a></code></p>
+            <p><code><span class="var">let</span> download_my_cv = <a href="https://drive.google.com/file/d/1dBULmJTZV_kwMFzMvFdfDCYCZs3hsnKQ/view?usp=sharing">`grap_my_resume`</a></code></p>
         </section>
-        <kbd class="string"># phone: +31 06 10305468</kbd>
         <p><code><span class="var">if</span> contactMe()</code></p>
         <nav>
             <ul>
                 <li><code><a href="https://github.com/joelbarbosa">_github</a></code></li>
                 <li><code><a href="https://www.linkedin.com/in/joel-barbosa/">_linkedIn</a><code></li>
-                <li><code><a href="https://twitter.com/joelbarbosareal">_twitter</a></code></li>
+                <li><code><a href="https://twitter.com/ojoelbarbosa">_twitter</a></code></li>
             </ul>
         </nav>
         <p><code><span class="var">end</span></code></p>
       </footer>
+        <script>
+           function yearOfExp(e){const t=new Date,n=new Date(e);e=t.getFullYear()-n.getFullYear();return t.getMonth()>=n.getMonth()?e:e-1}document.getElementById("xp").innerText=yearOfExp("2011/06/01");
+        </script>
   </body>
 </html>
